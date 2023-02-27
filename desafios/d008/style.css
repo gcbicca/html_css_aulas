@@ -1,0 +1,9 @@
+body {
+    background: rgb(197,197,197);
+background: linear-gradient(90deg, rgba(197,197,197,1) 32%, rgba(57,59,56,1) 94%);
+}
+p {
+    color: black;
+}
+h1 {
+    color: black;
