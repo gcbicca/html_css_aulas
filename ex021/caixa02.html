@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px black;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.296);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            margin: 0px;
+        
+            
+        }
+
+        h1{
+            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.353);
+        }
+
+
+        article > aside {
+            background-color: rgb(124, 122, 122);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<!--
+    Utilizando atalhos para escrever os codigos:
+    1:
+    <nav> class="menu"> nav.menu>ul>li + ENTER
+    <ul>
+        <li></li>
+    </ul>
+    </nav>
+
+    2:
+    <div>
+            <p><a href=""></a></p> div>p>a + ENTER
+    </div>
+
+    3:
+    <div>  div>h1+a + ENTER
+        <h1></h1>
+        <a href=""></a>
+    </div>
+
+    4:
+    h1>nav>a*5{link}
+
+    5:
+    section#noticias>article*2>aside + ENTER
+-->
+<body>
+    <!--<div>
+        <div id="cabecalho">
+            <h1>
+
+            </h1>
+            <div id="menu">
+
+            </div>
+        </div>
+    </div>-->
+
+   <header>
+       <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+
+   </header>
+   <main>
+        <section id="assuntos">
+            <h1>
+                <a href="#">Esporte</a> 
+                <a href="#">Política</a> 
+                <a href="#">Tecnologia</a>
+            </h1>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, itaque natus! Atque quae, exercitationem velit esse voluptatem ipsa facilis pariatur inventore consequuntur dolores obcaecati libero, debitis unde harum impedit ducimus!</p>
+                <aside>
+                    <p>Artigo escrito por Jóse da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <aside></aside>
+            </article>
+        </section>
+   </main>
+   <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+   </footer>
+</body>
+</html>

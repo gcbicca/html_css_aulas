@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited{ /*Pseudo-classe de status, de url visitada */
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{ /*Pseudo-classe de status de ativo. */
+            color: purple;
+            text-decoration: underline;
+        }
+
+
+        .destaque::before{
+            content: " 🌐";
+        }
+        .destaque::after{ /*Pseudo-elemento = :: (2x dois pontos) */
+            content: ' 🔗';
+            text-decoration: none;
+            font-weight: normal;
+            color: lightblue;
+        }
+        </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gcbicca">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCTYngTMN7jXgwwjMORJcGww" class="destaque">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
