@@ -22,6 +22,8 @@
             padding: 10px;
             margin: 10px;
             box-shadow: 2px 2px 4px black;
+            border-radius: 20px;
+
         }
 
         article {
@@ -48,9 +50,18 @@
             box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.353);
         }
 
-
+        .ancora {
+            text-decoration: none;
+        }
         article > aside {
             background-color: rgb(124, 122, 122);
+        }
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 10px;
         }
 
         footer {
@@ -118,9 +129,9 @@
    <main>
         <section id="assuntos">
             <h1>
-                <a href="#">Esporte</a> 
-                <a href="#">Política</a> 
-                <a href="#">Tecnologia</a>
+                <a class='ancora' href="#">Esporte</a> 
+                <a class='ancora' href="#">Política</a> 
+                <a class='ancora' href="#">Tecnologia</a>
             </h1>
         </section>
         <section id="noticias">
@@ -138,6 +149,8 @@
    </main>
    <footer>
         <p>Desenvolvido pelo CursoemVideo</p>
+
    </footer>
+   <div id="bola"></div>
 </body>
 </html>
