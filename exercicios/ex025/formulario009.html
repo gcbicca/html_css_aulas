@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario com range</h1>
+    <form action="cadastro.py" method="post">
+        <p>
+            <label for="in1">Numer: </label>
+            <input type="range" name="n1" id="in1" required max="10" value="5" min="0" oninput="ival.innerHTML = Number(in1.value)">
+            <output id="ival">5</output>
+        </p>
+    </form>
+</body>
+</html>
