@@ -3,6 +3,7 @@
 * {
     margin:0;
     padding: 0px;
+    /* box-sizing faz com que a borda faça parte da conta da largura*/
 }
 
 body, html {
@@ -20,7 +21,8 @@ main {
     height: 627px;
     width: 311px;
     border-radius: 20px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.647);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.647);
+    overflow: hidden; /* n */
 }
 
 #container-imagem {
@@ -28,8 +30,7 @@ main {
     background-size: cover;
     background-position: center center;
     height: 237px;
-    width: 311px;
-    border-radius: 20px 20px 0px 0px;
+   /*  width: 311px; */
 }
 
 #container-formulario {
@@ -82,7 +83,7 @@ main {
 }
 
 #caixa-texto2 {
-    background-color: lightblue;
+    background-color: #add8e6;
     text-align: center;
     border-radius: 5px;
     height: 30px;}

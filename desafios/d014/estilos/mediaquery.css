@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body, html {
+        background-image: linear-gradient(to bottom, #490449, #560556, #630663, #710771, #7f087f, #7e3098, #7a4ab0, #7460c5, #5f85da, #61a4e2, #80c0e4, #add8e6);
+        
+    }
+
+    main {
+        background-color: white;
+        height: 109vh;
+        width: 340px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.647);
+        transform: rotate(-90deg);
+    }
+    #container-imagem {
+        width: 100%;
+    }
+    #container-formulario {
+        transform: rotate(90deg);
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+    }
+    #caixa-texto1 {
+        
+    }
+    .formulario-caixa {
+        width: 49vw;
+        justify-content: left;
+        align-items: center;
+        
+    }
+    .formulario-caixa-2 {
+        width: 49vw;
+        
+    }
+    #titulo {
+        width: 50vw;
+        text-align: center;
+    }
+    #paragrafo {
+        width: 50vw;
+    }
+    input {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width:967px ) and (max-width:1920px) {
+    body, html {
+        background-image: linear-gradient(to bottom, #490449, #560556, #630663, #710771, #7f087f, #7e3098, #7a4ab0, #7460c5, #5f85da, #61a4e2, #80c0e4, #add8e6);
+        
+    }
+
+    main {
+        background-color: white;
+        height: 109vh;
+        width: 340px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.647);
+        transform: rotate(90deg);
+    }
+    #container-imagem {
+        width: 100%;
+    }
+    #container-formulario {
+        transform: rotate(-90deg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 47vh;
+        
+        
+        
+        
+    }
+    #caixa-texto1 {
+        
+    }
+    #formulario {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formulario-caixa {
+        width: 36vw;
+        
+        
+        
+    }
+    .formulario-caixa-2 {
+        
+        
+    }
+    #titulo {
+        
+        
+    }
+    #paragrafo {
+       
+    }
+    input {
+        width: 40vw;
+    }
+}
+
+
+
+}
