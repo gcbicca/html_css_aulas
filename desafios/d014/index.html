@@ -12,36 +12,40 @@
 </head>
 <body>
     <main>
-        <section id="container-imagem">
-            <div id="imagem">
-            </div>
-        </section>
-        <section id="container-formulario">
-            <h1 id="titulo">Login</h1>
-            <p id="paragrafo">Seja bem-vinda(o) novamente, faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-            <form id="formulario" action="" method="post">
-                <div class="formulario-caixa">
-                    <label for="iusu"><span id="icon" class="material-symbols-outlined">
-                        person
-                        </span>                        
-                        </label>
-                    <input id="caixa-texto1" type="text" name="usu" id="iusu" required minlength="4" size="30vh" maxlength="30" placeholder="Email ou nome de usuário" autocomplete="username">
+        <section id="login">
+            <section id="container-imagem">
+                <div id="imagem">
                 </div>
-                <div class="formulario-caixa">
-                    <label for="isen"><span class="material-symbols-outlined">
-                        vpn_key
-                        </span></label>
-                    <input id="caixa-texto2" type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password" maxlength="20" size="30vh" placeholder="Mínimo 8 letras">
-                </div>
-                
-                <div id= "formulario-caixa-2a"class="formulario-caixa-2">
-                    <a id="link-2a" href="">Entrar</a>
+            </section>
+            <section id="container-formulario">
+                <h1 id="titulo">Login</h1>
+                <p id="paragrafo">Seja bem-vinda(o) novamente, faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form id="formulario" action="" method="post">
+                    <div class="formulario-caixa">
+                        <label for="iusu"><span id="icon" class="material-symbols-outlined">
+                            person
+                            </span>
+                            </label>
+                        <input id="caixa-texto1" type="text" name="usu" id="iusu" required minlength="4" size="30vh" maxlength="30" placeholder="Email ou nome de usuário" autocomplete="username">
+                    </div>
+                    <div class="formulario-caixa">
+                        <label for="isen"><span class="material-symbols-outlined">
+                            vpn_key
+                            </span></label>
+                        <input id="caixa-texto2" type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password" maxlength="20" size="30vh" placeholder="Mínimo 8 letras">
+                    </div>
             
-                </div>
-                <div class="formulario-caixa-2">
-                    <a id="link-2b" href="">Esqueci a senha</a>
-                </div>
-            </form>
+            
+                        <!-- <a id="link-2a" href="">Entrar</a> -->
+            
+                        <input id="botao-entrar" type="submit" value="Entrar">
+            
+            
+                    <div class="formulario-caixa-2">
+                        <a id="link-2b" href="">Esqueci a senha</a>
+                    </div>
+                </form>
+            </section>
         </section>
     </main>
 </body>
